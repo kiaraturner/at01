@@ -15,7 +15,7 @@ public class Node : MonoBehaviour
     public Node[] Children { get { return children; } }
     /// <summary>
     /// Returns the parents of the node.
-    /// </summary>
+    /// </summary>.
     public Node[] Parents { get { return parents; } }
 
     private Vector3 offset = new Vector3(0, 1, 0);

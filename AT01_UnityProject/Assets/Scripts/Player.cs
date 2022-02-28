@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
+
+    
+
     //Define delegate types and events here
 
     public Node CurrentNode { get; private set; }

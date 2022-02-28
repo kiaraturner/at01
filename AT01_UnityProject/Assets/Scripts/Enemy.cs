@@ -32,6 +32,11 @@ public class Enemy : MonoBehaviour
                     transform.Translate(currentDir * speed * Time.deltaTime);
                 }
                 //Implement path finding here
+                else
+                {
+                    //implement pathfinding here
+                    //calculate target here
+                }
             }
             else
             {
@@ -68,4 +73,5 @@ public class Enemy : MonoBehaviour
     }
 
     //Implement DFS algorithm method here
+
 }
